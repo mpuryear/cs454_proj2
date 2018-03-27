@@ -1,2 +1,2 @@
 # cs454_proj2
-[./Project2.pdf]
+[project description](Project2.pdf)
