@@ -1,2 +1,2 @@
 # cs454_proj2
-[embed][project description](Project2.pdf)[/embed]
+[Project2.pdf](Project2.pdf)
