@@ -9,10 +9,11 @@ def problem2(filename):
     import subprocess
     cmd = 'egrep'
 
+    
     # String used to complete problem 2
     egrep_string = '.*(.)\\1.*(.)\\2.*'
 
-    
+
     cmd_list = [cmd, egrep_string, filename]
     subprocess.run(cmd_list)
     return
