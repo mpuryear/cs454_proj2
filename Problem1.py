@@ -107,5 +107,5 @@ if __name__ == "__main__":
     u_input = int(input("Enter a number B to determine if A is strongly divisible by B: "))
     alphabet = "0 1 2 3 4 5 6 7 8 9".split()
     d = gen_dfa(u_input, alphabet)
-    print(not d.run_with_input_list(u_input1))
+    print("True means the number is not strongly divisible:", d.run_with_input_list(u_input1))
 
