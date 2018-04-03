@@ -12,7 +12,6 @@ class DFA:
         self.current_state = [start_state]
         return
 
-    # Your gonna need to completely rewrite this
     def transition_to_state_with_input(self, input_value):
         new_current_state=[]
         for elem in self.current_state:
