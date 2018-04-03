@@ -20,6 +20,8 @@ def handle_prob2():
     return
 
 def handle_prob3():
+    # get input
+    problem3()
     return
 
 
