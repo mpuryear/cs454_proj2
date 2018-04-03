@@ -118,6 +118,7 @@ def handle_prob2():
 
 def handle_prob3():
     problem3()
+    print("dfa1.txt intersection dfa2.txt saved as dfa3.txt")
     return
 
 
