@@ -11,14 +11,13 @@ def problem1(input1, input2):
     
     return
 
-def problem2(filename):
+def problem2(filename, egrep_string):
     # Put problem2 code here
     # teestoost thiis fiile
     import subprocess
     cmd = 'egrep'
 
     # String used to complete problem 2
-    egrep_string = '.*(.)\\1.*(.)\\2.*'
     cmd_list = [cmd, egrep_string, filename]
     subprocess.run(cmd_list)
     return
@@ -112,8 +111,9 @@ def handle_prob1():
     return 
 
 def handle_prob2():
-    filename = input("File to egrep(note - whitespace is considered in the language): ")
-    problem2(filename)
+    egrep_string = '.*(.)\\1.*(.)\\2.*'
+    filename = input("Relative path to file to egrep using " + egrep_string + " ")
+    problem2(filename, egrep_string)
     return
 
 def handle_prob3():
