@@ -73,6 +73,10 @@ class DFA:
         path.append(parents[current][1])
         path.reverse()
         return(path)
+    
+    def print(self):
+        for elem in self.transition_function.keys():
+            print("state:", elem[0], "on", elem[1], "-->", self.transition_function[elem])
 
 
 def gen_dfa(k, alphabet):
