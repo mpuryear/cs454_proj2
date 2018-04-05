@@ -8,7 +8,7 @@ def problem1(input1, input2):
     d = Problem1.gen_dfa(input2, alphabet)
     print("True means the number is not strongly divisible:",
           d.run_with_input_list(input1))
-    
+    d.print()
     return
 
 def problem2(filename, egrep_string):
